@@ -2,7 +2,7 @@
 
 ###### cAlgo Martingale strategy automated trading bot
 
-** WARNING: This cBot was made for testing and education purposes only and does not guarantee any particular profit. **
+**WARNING: This cBot was made for testing and education purposes only and does not guarantee any particular profit.**
 
 This is my approach to make a pretty simple, yet fully automated cBot based on a well-known *'martingale strategy'*. In its classic version, it basically doubles the trade size after each loss, thus providing us with profit in the end (if your pockets are deep enough..).
 
@@ -21,3 +21,5 @@ Additional logic
 - day of the week check (avoid opening new trades on early Monday + late Friday)
 - avoid 'spikes' (hammer-like candles etc.)
 - make breaks between trades (hard-coded bar counter)
+
+The project is a pretty basic version and a good begining for an improved cBot with more logic to make it open well-aimed trades. Possible to be updated in the future.
